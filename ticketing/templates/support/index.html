@@ -16,18 +16,14 @@
                         </tr>
                     </thead>
                     <tbody>
+                        {% for ticket in tickets%}
                         <tr>
-                            <td>#0001</td>
-                            <td>Peter(Health)</td>
-                            <td>12/02/2020</td>
+                            <td>{{ticket.id}}</td>
+                            <td>{{ticket.opened_by}}</td>
+                            <td>{{ticket.opened_on}}</td>
                             <td>Take | View</td>
                         </tr>
-                        <tr>
-                            <td>#0067</td>
-                            <td>Abu(Finance)</td>
-                            <td>22/02/2019</td>
-                            <td>Take | View</td>
-                        </tr>
+                        {%endfor%}
 
                     </tbody>
                 </table>

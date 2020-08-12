@@ -9,27 +9,27 @@
 
 ### Admin can:
 
-Add both clients and Support staff.
-Create a ticket
-Mark Ticket as complete
-Assign a ticket to a support team member
-See tickets and how long they have been open
-View each Support team member’s history ie tickets they worked on
-Delete Tickets
-Suspend or a support staff
+1. Add both clients and Support staff.
+2. Create a ticket
+3. Mark Ticket as complete
+4. Assign a ticket to a support team member
+5. See tickets and how long they have been open
+6. View each Support team member’s history ie tickets they worked on
+7. Delete Tickets
+8. Suspend or a support staff
 
 ### Support Team Can:
 
-See all open and in-progress tickets
-Take a task
-Add other people as Team
-Mark a ticket as complete
-See their previous tickets
-Update their profile
+1. See all open and in-progress tickets
+2. Take a task
+3. dd other people as Team
+4. Mark a ticket as complete
+5. See their previous tickets
+6. Update their profile
 
 ### Clients / General Staff can:
 
-Create a ticket
-Mark ticket completely
-Rate service
-See previous tickets
+1. Create a ticket
+2. Mark ticket as completed
+3. Rate service
+4. See previous tickets

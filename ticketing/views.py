@@ -14,7 +14,10 @@ def clients(request):
 
 
 def support(request):
-    context = {}
+    tickets = Ticket.objects.all()
+    context = {
+            'tickets': tickets,
+    }
     template_name = 'support/index.html'
     return render(request, template_name, context)
 
