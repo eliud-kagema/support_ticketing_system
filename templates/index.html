@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+{% block content %}
+<div class="container">
+    <p><a href="{% url 'ticketing:support_index' %}">Support Page</a></p>
 
-<body>
-    <h1>We Did It!</h1>
-</body>
+    <p><a href="{% url 'ticketing:clients_index' %}">Client Page</a></p>
+</div>
 
-</html>
+{% endblock content %}
